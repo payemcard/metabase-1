@@ -13,6 +13,7 @@ export class Dashboard extends Component {
     const { dashboard, className, style, ...props } = this.props;
 
     return (
+     
       <LoadingAndErrorWrapper
         className={cx("Dashboard p1 flex-full", className)}
         style={style}

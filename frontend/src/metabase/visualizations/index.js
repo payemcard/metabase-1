@@ -1,12 +1,17 @@
 import { t } from "ttag";
 import _ from "underscore";
 
+const USE_MINIMAL = true;
+
+const minimalMap = {
+  bar: "minimal_bar",
+};
+
 const visualizations = new Map();
 const aliases = new Map();
-visualizations.get = function(key) {
-  console.log("key ->", key);
-  console.log("aliases.get(key) ->", aliases.get(key));
-  console.log("defaultVisualization ->", defaultVisualization);
+visualizations.get = function(rawKey) {
+  const minimalKey = minimalMap[rawKey] || rawKey;
+  const key = USE_MINIMAL ? minimalKey : rawKey;
 
   return (
     Map.prototype.get.call(this, key) ||

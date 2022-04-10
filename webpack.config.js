@@ -15,6 +15,7 @@ const fs = require("fs");
 const ASSETS_PATH = __dirname + "/resources/frontend_client/app/assets";
 const FONTS_PATH = __dirname + "/resources/frontend_client/app/fonts";
 const SRC_PATH = __dirname + "/frontend/src/metabase";
+const MINIMAL_SRC_PATH = __dirname + "/frontend/src/minimal";
 const LIB_SRC_PATH = __dirname + "/frontend/src/metabase-lib";
 const ENTERPRISE_SRC_PATH =
   __dirname + "/enterprise/frontend/src/metabase-enterprise";
@@ -122,6 +123,7 @@ const config = (module.exports = {
     alias: {
       assets: ASSETS_PATH,
       fonts: FONTS_PATH,
+      minimal: MINIMAL_SRC_PATH,
       metabase: SRC_PATH,
       "metabase-lib": LIB_SRC_PATH,
       "metabase-enterprise": ENTERPRISE_SRC_PATH,

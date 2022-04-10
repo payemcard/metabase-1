@@ -21,14 +21,15 @@ import Funnel from "./visualizations/basic/Funnel";
 import Gauge from "./visualizations/basic/Gauge";
 import ObjectDetail from "./visualizations/basic/ObjectDetail";
 import PivotTable from "./visualizations/basic/PivotTable";
+import MinimalLineChart from "./visualizations/minimal/MinimalLineChart";
 
 export default function() {
+  // basic
   registerVisualization(Scalar);
   registerVisualization(SmartScalar);
   registerVisualization(Progress);
   registerVisualization(Gauge);
   registerVisualization(Table);
-  3;
   registerVisualization(Text);
   registerVisualization(LineChart);
   registerVisualization(AreaChart);
@@ -42,5 +43,9 @@ export default function() {
   registerVisualization(Funnel);
   registerVisualization(ObjectDetail);
   registerVisualization(PivotTable);
+
+  // minimal
+  registerVisualization(MinimalLineChart);
+
   setDefaultVisualization(Table);
 }
