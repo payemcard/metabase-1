@@ -16,6 +16,10 @@
         {
             "filePath": "frontend/src/metabase/visualizations/index.js",
             "group": "Default"
+        },
+        {
+            "filePath": "frontend/src/metabase/visualizations/visualizations/minimal/MinimalLineChart.jsx",
+            "group": "Default"
         }
     ]
 }

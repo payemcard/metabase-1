@@ -22,6 +22,7 @@ import Gauge from "./visualizations/basic/Gauge";
 import ObjectDetail from "./visualizations/basic/ObjectDetail";
 import PivotTable from "./visualizations/basic/PivotTable";
 import MinimalLineChart from "./visualizations/minimal/MinimalLineChart";
+import MinimalPieChart from "./visualizations/minimal/MinimalPieChart";
 
 export default function() {
   // basic
@@ -46,6 +47,7 @@ export default function() {
 
   // minimal
   registerVisualization(MinimalLineChart);
+  registerVisualization(MinimalPieChart);
 
   setDefaultVisualization(Table);
 }

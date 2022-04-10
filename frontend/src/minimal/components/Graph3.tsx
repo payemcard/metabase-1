@@ -3,7 +3,7 @@ import React from "react";
 import ReactApexChart from "react-apexcharts";
 import { BaseOptionChart } from "../utils/chart";
 import { Box, CardHeader, TextField } from "@mui/material";
-import { t } from "ttag";
+import { useState } from "react";
 
 const CHART_DATA = [
   {
@@ -34,98 +34,85 @@ const CHART_DATA = [
   },
 ];
 
-export class Graph3 extends React.Component<any, any> {
-  static uiName = t`Line`;
-  static identifier = "line";
-  static iconName = "line";
-  static noun = t`line chart`;
+export function Graph3() {
+  const [seriesData, setSeriesData] = useState(2022);
 
-  constructor(props: any) {
-    super(props);
+  const handleChangeSeriesData = (
+    event: React.ChangeEvent<HTMLInputElement>,
+  ) => {
+    setSeriesData(Number(event.target.value));
+  };
 
-    this.state = {
-      seriesData: 2022,
-    };
-  }
+  const chartOptions = merge(BaseOptionChart(), {
+    legend: { position: "top", horizontalAlign: "right" },
+    xaxis: {
+      categories: [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+      ],
+    },
+  });
 
-  render() {
-    const handleChangeSeriesData = (
-      event: React.ChangeEvent<HTMLInputElement>,
-    ) => {
-      this.setState({ seriesData: Number(event.target.value) });
-    };
+  return (
+    <>
+      <CardHeader
+        title="Yearly Spending"
+        subheader="(+43%) than last year"
+        action={
+          <TextField
+            select
+            fullWidth
+            value={seriesData}
+            SelectProps={{ native: true }}
+            onChange={handleChangeSeriesData}
+            sx={{
+              "& fieldset": { border: "0 !important" },
+              "& select": {
+                pl: 1,
+                py: 0.5,
+                pr: "24px !important",
+                typography: "subtitle2",
+              },
+              "& .MuiOutlinedInput-root": {
+                borderRadius: 0.75,
+                bgcolor: "background.neutral",
+              },
+              "& .MuiNativeSelect-icon": {
+                top: 4,
+                right: 0,
+                width: 20,
+                height: 20,
+              },
+            }}
+          >
+            {CHART_DATA.map(option => (
+              <option key={option.year} value={option.year}>
+                {option.year}
+              </option>
+            ))}
+          </TextField>
+        }
+      />
 
-    const chartOptions = merge(BaseOptionChart(), {
-      legend: { position: "top", horizontalAlign: "right" },
-      xaxis: {
-        categories: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-        ],
-      },
-    });
-
-    return (
-      <>
-        <CardHeader
-          title="Yearly Spending"
-          subheader="(+43%) than last year"
-          action={
-            <TextField
-              select
-              fullWidth
-              value={seriesData}
-              SelectProps={{ native: true }}
-              onChange={handleChangeSeriesData}
-              sx={{
-                "& fieldset": { border: "0 !important" },
-                "& select": {
-                  pl: 1,
-                  py: 0.5,
-                  pr: "24px !important",
-                  typography: "subtitle2",
-                },
-                "& .MuiOutlinedInput-root": {
-                  borderRadius: 0.75,
-                  bgcolor: "background.neutral",
-                },
-                "& .MuiNativeSelect-icon": {
-                  top: 4,
-                  right: 0,
-                  width: 20,
-                  height: 20,
-                },
-              }}
-            >
-              {CHART_DATA.map(option => (
-                <option key={option.year} value={option.year}>
-                  {option.year}
-                </option>
-              ))}
-            </TextField>
-          }
-        />
-
-        {CHART_DATA.map(item => (
-          <Box key={item.year} sx={{ mt: 3, mx: 3 }} dir="ltr">
-            {item.year === seriesData && (
-              <ReactApexChart
-                type="area"
-                series={item.data}
-                options={chartOptions}
-                height={364}
-              />
-            )}
-          </Box>
-        ))}
-      </>
-    );
-  }
+      {CHART_DATA.map(item => (
+        <Box key={item.year} sx={{ mt: 3, mx: 3 }} dir="ltr">
+          {item.year === seriesData && (
+            <ReactApexChart
+              type="area"
+              series={item.data}
+              options={chartOptions}
+              height={364}
+            />
+          )}
+        </Box>
+      ))}
+    </>
+  );
 }

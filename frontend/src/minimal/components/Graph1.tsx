@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardContent,
 } from "@mui/material";
+import { ThemeProvider } from "../theme";
 
 export class Graph1 extends React.Component {
   static uiName = t`Line`;
@@ -19,7 +20,7 @@ export class Graph1 extends React.Component {
 
   render() {
     return (
-      <>
+      <ThemeProvider>
         {window.innerWidth > 2000 && <CardHeader title="Company Summary" />}
         <CardContent>
           <Grid container spacing={2}>
@@ -28,7 +29,7 @@ export class Graph1 extends React.Component {
             ))}
           </Grid>
         </CardContent>
-      </>
+      </ThemeProvider>
     );
   }
 }

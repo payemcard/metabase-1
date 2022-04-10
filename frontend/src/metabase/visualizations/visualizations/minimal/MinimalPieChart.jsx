@@ -9,13 +9,13 @@ import {
   GRAPH_AXIS_SETTINGS,
   GRAPH_DISPLAY_VALUES_SETTINGS,
 } from "../../lib/settings/graph";
-import {ThemeProvider, Graph3} from 'minimal'
+import {ThemeProvider, GraphPie} from 'minimal'
 
-export default class MinimalLineChart extends LineAreaBarChart {
-  static uiName = t`Line`;
-  static identifier = "minimal_bar";
-  static iconName = "line";
-  static noun = t`line chart`;
+export default class MinimalPieChart extends LineAreaBarChart {
+  static uiName = t`Pie`;
+  static identifier = "minimal_pie";
+  static iconName = "pie";
+  static noun = t`pie chart`;
 
   static settings = {
     ...LINE_SETTINGS,
@@ -30,7 +30,7 @@ export default class MinimalLineChart extends LineAreaBarChart {
     console.log('this.props ->', this.props);
     
     return <ThemeProvider>
-      <Graph3 />
+      <GraphPie />
     </ThemeProvider>
   }
 }
