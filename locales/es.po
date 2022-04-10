@@ -311,7 +311,7 @@ msgstr "Añadir base de datos"
 #: frontend/src/metabase/entities/questions/forms.js:6
 #: frontend/src/metabase/lib/expressions/helper_text_strings.js:480
 #: frontend/src/metabase/visualizations/lib/settings/column.js:323
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:83
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:83
 msgid "Name"
 msgstr "Nombre"
 
@@ -418,7 +418,7 @@ msgstr "Sin tipo especial"
 #: frontend/src/metabase/query_builder/components/DatasetEditor/DatasetFieldMetadataSidebar/DatasetFieldMetadataSidebar.jsx:67
 #: frontend/src/metabase/reference/components/Field.jsx:54
 #: frontend/src/metabase/reference/components/FieldTypeDetail.jsx:36
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:274
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:274
 #: src/metabase/pulse/render/body.clj
 #: target/classes/metabase/pulse/render/body.clj
 msgid "Other"
@@ -437,10 +437,10 @@ msgstr "Seleccione un objetivo"
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:852
 #: frontend/src/metabase/dashboard/components/ClickMappings.jsx:171
 #: frontend/src/metabase/query_builder/components/notebook/steps/FieldsPicker.jsx:20
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:86
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:98
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:129
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:165
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:86
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:98
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:129
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:165
 msgid "Columns"
 msgstr "Columnas"
 
@@ -2867,7 +2867,7 @@ msgid "Create dashboard"
 msgstr "Crea un Cuadro de Mando"
 
 #: frontend/src/metabase/nav/components/utils.js:7
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:38
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:38
 msgid "Table"
 msgstr "Tabla"
 
@@ -3240,7 +3240,7 @@ msgstr "recibido los últimos datos de"
 
 #: frontend/src/metabase/home/components/Activity.jsx:257
 #: frontend/src/metabase/lib/query_time.js:185
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:302
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:302
 #: enterprise/backend/src/metabase_enterprise/enhancements/integrations/ldap.clj
 #: enterprise/backend/src/metabase_enterprise/sso/integrations/jwt.clj
 #: src/metabase/integrations/ldap/default_implementation.clj
@@ -3467,7 +3467,7 @@ msgstr "Longitud"
 #: frontend/src/metabase/parameters/utils/dashboard-options.js:32
 #: frontend/src/metabase/parameters/utils/dashboard-options.js:34
 #: frontend/src/metabase/query_builder/components/template_tags/TagEditorParam.jsx:150
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:39
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:39
 msgid "Number"
 msgstr "Número"
 
@@ -5215,14 +5215,14 @@ msgstr "Añadir una agrupación"
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:91
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:137
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:189
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:66
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:106
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:113
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:307
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:313
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:319
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:105
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:110
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:66
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:106
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:113
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:307
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:313
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:319
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:105
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:110
 msgid "Data"
 msgstr "Datos"
 
@@ -5672,7 +5672,7 @@ msgid "Enter desired number"
 msgstr "Introduce el número deseado"
 
 #: frontend/src/metabase/query_builder/components/filters/pickers/SelectPicker.jsx:61
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:127
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:127
 msgid "Empty"
 msgstr "Vacío"
 
@@ -5750,7 +5750,7 @@ msgstr "Tipo de Variable"
 
 #: frontend/src/metabase/parameters/utils/dashboard-options.js:40
 #: frontend/src/metabase/query_builder/components/template_tags/TagEditorParam.jsx:149
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:252
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:252
 msgid "Text"
 msgstr "Texto"
 
@@ -6677,7 +6677,7 @@ msgid "Which fields do you want to use for the X and Y axes?"
 msgstr "¿Qué campos quieres usar para los ejes X e Y?"
 
 #: frontend/src/metabase/visualizations/components/LineAreaBarChart.jsx:117
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:67
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:67
 msgid "Choose fields"
 msgstr "Elige campos"
 
@@ -6697,7 +6697,7 @@ msgstr "Cancelar Filtro"
 msgid "Pin Map"
 msgstr "Mapa de Pin"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:380
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:380
 msgid "Unset"
 msgstr "Desmarcar"
 
@@ -6841,7 +6841,7 @@ msgid "Highlight the whole row"
 msgstr "Resalta la fila entera"
 
 #: frontend/src/metabase/visualizations/components/settings/ChartSettingsTableFormatting.jsx:399
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:133
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:133
 msgid "Colors"
 msgstr "Colores"
 
@@ -6919,7 +6919,7 @@ msgid "This chart type doesn't support more than {0} series of data."
 msgstr "Este tipo de gráfico no admite más de {0} series de datos."
 
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:310
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:66
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:66
 msgid "Goal"
 msgstr "Objetivo"
 
@@ -7006,7 +7006,7 @@ msgid "xValues missing!"
 msgstr "¡Faltan valores x!"
 
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:92
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:30
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:30
 msgid "X-axis"
 msgstr "Eje-X"
 
@@ -7015,7 +7015,7 @@ msgid "Add a series breakout..."
 msgstr "Añade un desglose de series..."
 
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:138
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:34
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:34
 msgid "Y-axis"
 msgstr "Eje-Y"
 
@@ -7027,7 +7027,7 @@ msgstr "Añade otra serie..."
 msgid "Bubble size"
 msgstr "Tamaño de burbuja"
 
-#: frontend/src/metabase/visualizations/visualizations/LineChart.jsx:15
+#: frontend/src/metabase/visualizations/visualizations/basic/LineChart.jsx:15
 msgid "Line"
 msgstr "Línea"
 
@@ -7035,7 +7035,7 @@ msgstr "Línea"
 msgid "Curve"
 msgstr "Curva"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:107
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:107
 msgid "Step"
 msgstr "Paso"
 
@@ -7167,139 +7167,139 @@ msgstr "Etiqueta Eje-Y"
 msgid "Standard Deviation"
 msgstr "Desviación Estándar"
 
-#: frontend/src/metabase/visualizations/visualizations/AreaChart.jsx:17
+#: frontend/src/metabase/visualizations/visualizations/basic/AreaChart.jsx:17
 msgid "Area"
 msgstr "Area"
 
-#: frontend/src/metabase/visualizations/visualizations/AreaChart.jsx:20
+#: frontend/src/metabase/visualizations/visualizations/basic/AreaChart.jsx:20
 msgid "area chart"
 msgstr "Gráfico de área"
 
-#: frontend/src/metabase/visualizations/visualizations/BarChart.jsx:16
+#: frontend/src/metabase/visualizations/visualizations/basic/BarChart.jsx:16
 msgid "Bar"
 msgstr "Barra"
 
-#: frontend/src/metabase/visualizations/visualizations/BarChart.jsx:19
+#: frontend/src/metabase/visualizations/visualizations/basic/BarChart.jsx:19
 msgid "bar chart"
 msgstr "Gráfico de barras"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:65
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:65
 msgid "Which fields do you want to use?"
 msgstr "¿Qué campos quieres usar?"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:35
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:125
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:35
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:125
 msgid "Funnel"
 msgstr "Embudo"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:114
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:111
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:114
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:111
 msgid "Measure"
 msgstr "Medida"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:120
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:120
 msgid "Funnel type"
 msgstr "Tipo Embudo"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:126
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:126
 msgid "Bar chart"
 msgstr "Gráfico de barras"
 
-#: frontend/src/metabase/visualizations/visualizations/LineChart.jsx:18
+#: frontend/src/metabase/visualizations/visualizations/basic/LineChart.jsx:18
 msgid "line chart"
 msgstr "Gráfico de líneas"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:306
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:306
 msgid "Please select longitude and latitude columns in the chart settings."
 msgstr "Selecciona las columnas de longitud y latitud en la configuración del gráfico."
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:312
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:312
 msgid "Please select a region map."
 msgstr "Por favor, selecciona un mapa de la región."
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:318
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:318
 msgid "Please select region and metric columns in the chart settings."
 msgstr "Selecciona las columnas de región y métricas en la configuración del gráfico."
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:39
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:39
 msgid "Map"
 msgstr "Mapa"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:133
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:133
 msgid "Map type"
 msgstr "Tipo mapa"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:137
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:230
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:137
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:230
 msgid "Region map"
 msgstr "Mapa de la región"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:138
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:138
 msgid "Pin map"
 msgstr "Mapa de pin"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:184
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:184
 msgid "Pin type"
 msgstr "Tipo Pin"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:189
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:189
 msgid "Tiles"
 msgstr "Baldosas"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:190
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:190
 msgid "Markers"
 msgstr "Marcadores"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:208
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:208
 msgid "Latitude field"
 msgstr "Campo Latitud"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:215
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:215
 msgid "Longitude field"
 msgstr "Campo Longitud"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:222
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:250
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:222
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:250
 msgid "Metric field"
 msgstr "Campo Métrica"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:254
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:254
 msgid "Region field"
 msgstr "Campo Región"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:274
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:274
 msgid "Radius"
 msgstr "Radio"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:280
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:280
 msgid "Blur"
 msgstr "Difuminar"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:286
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:286
 msgid "Min Opacity"
 msgstr "Opacidad Mínima"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:292
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:292
 msgid "Max Zoom"
 msgstr "Acercamiento Máximo"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:205
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:205
 msgid "No relationships found."
 msgstr "No se encontraron relaciones."
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:243
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:243
 msgid "via {0}"
 msgstr "via {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:320
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:320
 msgid "This {0} is connected to:"
 msgstr "Esta {0} está conectada a:"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:56
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:56
 msgid "Object Detail"
 msgstr "Detalle del Objeto"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:59
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:59
 msgid "object"
 msgstr "objeto"
 
@@ -7307,69 +7307,69 @@ msgstr "objeto"
 #: frontend/src/metabase/visualizations/lib/apply_axis.js:133
 #: frontend/src/metabase/visualizations/lib/apply_axis.js:244
 #: frontend/src/metabase/visualizations/lib/apply_axis.js:315
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:378
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:378
 msgid "Total"
 msgstr "Total"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:74
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:74
 msgid "Which columns do you want to use?"
 msgstr "¿Qué columnas quieres usar?"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:50
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:50
 msgid "Pie"
 msgstr "Pastel"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:106
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:106
 msgid "Dimension"
 msgstr "Dimensión"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:116
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:116
 msgid "Show legend"
 msgstr "Mostrar Leyenda"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:121
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:121
 msgid "Show percentages in legend"
 msgstr "Mostrar porcentajes en la leyenda"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:127
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:127
 msgid "Minimum slice percentage"
 msgstr "Porcentaje mínimo de porción"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/utils.ts:35
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:164
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:164
 msgid "Goal met"
 msgstr "Objetivo conseguido"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/utils.ts:37
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:166
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:166
 msgid "Goal exceeded"
 msgstr "Objetivo superado"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/ProgressBar.tsx:148
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:233
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:233
 msgid "Goal {0}"
 msgstr "Objetivo {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:47
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:47
 msgid "Progress visualization requires a number."
 msgstr "La visualización del progreso requiere un número."
 
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:31
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:31
 msgid "Progress"
 msgstr "Progreso"
 
 #: frontend/src/metabase/entities/collections/forms.js:38
 #: frontend/src/metabase/entities/snippet-collections.js:88
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:258
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:72
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:258
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:72
 msgid "Color"
 msgstr "Color"
 
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:13
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:13
 msgid "Row Chart"
 msgstr "Gráfico de Filas"
 
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:14
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:14
 msgid "row chart"
 msgstr "gráfico de filas"
 
@@ -7377,7 +7377,7 @@ msgstr "gráfico de filas"
 msgid "Separator style"
 msgstr "Estilo separador"
 
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:88
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:88
 msgid "Number of decimal places"
 msgstr "Número de decimales"
 
@@ -7393,61 +7393,61 @@ msgstr "Añade un sufijo"
 msgid "Multiply by a number"
 msgstr "Multiplicar por un número"
 
-#: frontend/src/metabase/visualizations/visualizations/ScatterPlot.jsx:14
+#: frontend/src/metabase/visualizations/visualizations/basic/ScatterPlot.jsx:14
 msgid "Scatter"
 msgstr "Dispersión"
 
-#: frontend/src/metabase/visualizations/visualizations/ScatterPlot.jsx:17
+#: frontend/src/metabase/visualizations/visualizations/basic/ScatterPlot.jsx:17
 msgid "scatter plot"
 msgstr "gráfico de dispersión"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:87
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:87
 msgid "Pivot the table"
 msgstr "Pivote la tabla"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:73
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:73
 msgid "Visible fields"
 msgstr "Campos visibles"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:121
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:121
 msgid "Write here, and use Markdown if you'd like"
 msgstr "Escribe aquí. Puedes utilizar Markdown"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:57
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:57
 msgid "Vertical Alignment"
 msgstr "Alineamiento Vertical"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:61
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:61
 msgid "Top"
 msgstr "Arriba:"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:62
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:62
 msgid "Middle"
 msgstr "Medio"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:63
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:63
 msgid "Bottom"
 msgstr "Abajo"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:70
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:70
 msgid "Horizontal Alignment"
 msgstr "Alineamiento Horizontal"
 
 #: frontend/src/metabase/visualizations/lib/settings/series.js:118
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:74
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:74
 msgid "Left"
 msgstr "Izquierda"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:75
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:75
 msgid "Center"
 msgstr "Centro"
 
 #: frontend/src/metabase/visualizations/lib/settings/series.js:119
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:76
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:76
 msgid "Right"
 msgstr "Derecho"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:83
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:83
 msgid "Show background"
 msgstr "Mostrar fondo"
 
@@ -9712,20 +9712,20 @@ msgstr "Compartir"
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:337
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:353
 #: frontend/src/metabase/visualizations/lib/settings/nested.js:86
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:121
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:115
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:120
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:126
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:132
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:65
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:71
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:56
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:69
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:82
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:25
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:31
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:37
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:43
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:121
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:115
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:120
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:126
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:132
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:65
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:71
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:56
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:69
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:82
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:25
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:31
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:37
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:43
 msgid "Display"
 msgstr "Visualización"
 
@@ -10027,92 +10027,92 @@ msgstr "Automatico"
 msgid "Which axis?"
 msgstr "¿En qué eje?"
 
-#: frontend/src/metabase/visualizations/visualizations/ComboChart.jsx:16
+#: frontend/src/metabase/visualizations/visualizations/basic/ComboChart.jsx:16
 msgid "Line + Bar"
 msgstr "Línea + Barra"
 
-#: frontend/src/metabase/visualizations/visualizations/ComboChart.jsx:18
+#: frontend/src/metabase/visualizations/visualizations/basic/ComboChart.jsx:18
 msgid "line and bar chart"
 msgstr "gráfico de línea y barra"
 
-#: frontend/src/metabase/visualizations/visualizations/Gauge.jsx:71
+#: frontend/src/metabase/visualizations/visualizations/basic/Gauge.jsx:71
 msgid "Gauge visualization requires a number."
 msgstr "La visualización del contador requiere un número."
 
-#: frontend/src/metabase/visualizations/visualizations/Gauge.jsx:55
+#: frontend/src/metabase/visualizations/visualizations/basic/Gauge.jsx:55
 msgid "Gauge"
 msgstr "Contador"
 
-#: frontend/src/metabase/visualizations/visualizations/Gauge.jsx:110
+#: frontend/src/metabase/visualizations/visualizations/basic/Gauge.jsx:110
 msgid "Gauge ranges"
 msgstr "Rangos del contador"
 
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:99
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:99
 msgid "Field to show"
 msgstr "Campo a mostrar"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:137
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:137
 msgid "last {0}"
 msgstr "último {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:205
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:205
 msgid "{0} was {1} {2}"
 msgstr "{0} era {1} {2}"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:79
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:79
 msgid "Group by a time field to see how this has changed over time"
 msgstr "Agrupa por un campo temporal para ver como ha cambiado a lo largo del tiempo"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:58
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:58
 msgid "Switch positive / negative colors?"
 msgstr "¿Mostrar colores positivos/negativos?"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:99
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:99
 msgid "Pivot column"
 msgstr "Columna pivote"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:130
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:130
 msgid "Cell column"
 msgstr "Columna celda"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:166
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:166
 msgid "Visible columns"
 msgstr "Columnas visibles"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:200
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:200
 msgid "Conditional Formatting"
 msgstr "Formato condicional"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:179
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:236
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:179
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:236
 msgid "Column title"
 msgstr "Título columna"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:244
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:244
 msgid "Show a mini bar chart"
 msgstr "Mostrar una gráfica de barras en miniatura"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:253
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:253
 msgid "Link"
 msgstr "Enlace"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:258
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:258
 msgid "Email link"
 msgstr "Enlace Email"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:262
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:262
 msgid "Image"
 msgstr "Imagen"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:266
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:266
 msgid "Automatic"
 msgstr "Automático"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:270
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:270
 msgid "View as link or image"
 msgstr "Ver como enlace o imagen"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:283
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:283
 msgid "Link text"
 msgstr "Texto del enlace"
 
@@ -12030,7 +12030,7 @@ msgstr "Inválido"
 msgid "Add a time"
 msgstr "Añade una hora"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:191
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:191
 msgid "Nothing to compare for the previous {0}."
 msgstr "Nada que comparar en el {0} anterior."
 
@@ -13264,15 +13264,15 @@ msgstr "Perfil"
 msgid "This is usually pretty fast but seems to be taking a while right now."
 msgstr "Esto suele ser bastante rápido, pero parece estar tardando un poco en este momento."
 
-#: frontend/src/metabase/visualizations/visualizations/ComboChart.jsx:15
+#: frontend/src/metabase/visualizations/visualizations/basic/ComboChart.jsx:15
 msgid "Combo"
 msgstr "Combo"
 
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:11
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:11
 msgid "Row"
 msgstr "Fila"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:31
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:31
 msgid "Trend"
 msgstr "Tendencia"
 
@@ -15013,7 +15013,7 @@ msgstr "Formato de valor"
 msgid "Full"
 msgstr "Lleno"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:193
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:193
 msgid "No change from last {0}"
 msgstr "Sin cambios desde el último {0}"
 
@@ -17679,7 +17679,7 @@ msgstr "Filas {0}-{1} del primer {2}"
 msgid "Drag fields here"
 msgstr "Arrastra campos aquí"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:359
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:359
 msgid "Percentage"
 msgstr "Porcentaje"
 
@@ -17695,47 +17695,47 @@ msgstr "Totales absolutos"
 msgid "Row totals"
 msgstr "Totales de fila"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:28
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:28
 msgid "Fields to use for the table rows"
 msgstr "Campos a usar para las filas de la tabla"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:33
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:33
 msgid "Fields to use for the table columns"
 msgstr "Campos a usar para las columnas de la tabla"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:38
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:38
 msgid "Fields to use for the table values"
 msgstr "Campos a usar para los valores de la tabla"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:91
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:91
 msgid "Pivot tables can only be used with aggregated queries."
 msgstr "Las tablas dinámicas solo se pueden usar con consultas agregadas."
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:64
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:64
 msgid "Pivot Table"
 msgstr "Tabla dinámica"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:15
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:15
 msgid "Waterfall"
 msgstr "Cascada"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:18
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:18
 msgid "waterfall chart"
 msgstr "Gráfico de Cascada"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:26
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:26
 msgid "Increase color"
 msgstr "Incrementar color"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:32
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:32
 msgid "Decrease color"
 msgstr "Reducir color"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:38
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:38
 msgid "Show total"
 msgstr "Mostar total"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:44
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:44
 msgid "Total color"
 msgstr "Color total"
 
@@ -18384,21 +18384,21 @@ msgstr "¿Borrar esta suscripción a {0}?"
 msgid "{0} charts in your subscription won't look the same as in your dashboard. {1}."
 msgstr "Los gráficos de tu suscripción no se verán igual que en tu tablero. {1}."
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:36
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:43
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:50
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:36
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:43
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:50
 msgid "Fields to use for the table {0}"
 msgstr "Campos a usar para la tabla {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:37
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:37
 msgid "rows"
 msgstr "filas"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:44
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:44
 msgid "columns"
 msgstr "columnas"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:51
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:51
 msgid "values"
 msgstr "valores"
 
@@ -18539,7 +18539,7 @@ msgstr "Orden de clasificación"
 msgid "See options…"
 msgstr "Ver las opciones..."
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:95
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:95
 msgid "This database does not support pivot tables."
 msgstr "Esta base de datos no soporta tablas dinámicas."
 
@@ -19195,11 +19195,11 @@ msgstr "Se esperaba un paréntesis de apertura después de la función {0}"
 msgid "Explore results"
 msgstr "Explorar resultados"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:280
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:280
 msgid "You can use the value of any column here like this: {{COLUMN}}"
 msgstr "Puedes usar el valor de cualquier columna aquí de esta manera: {{COLUMNA}}"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:293
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:293
 msgid "Link URL"
 msgstr "URL del enlace"
 
@@ -19580,7 +19580,7 @@ msgstr "Editar detalles"
 msgid "History"
 msgstr "Historia"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:419
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:419
 msgid "Every field is hidden right now"
 msgstr "Todos los campos están ocultos en este momento"
 
@@ -20832,7 +20832,7 @@ msgstr "Modelo #{0}"
 msgid "Model in {0}"
 msgstr "Modelo en {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:271
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:271
 msgid "Display as"
 msgstr "Mostrar como"
 

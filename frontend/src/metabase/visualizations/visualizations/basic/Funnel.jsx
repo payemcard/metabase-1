@@ -18,9 +18,9 @@ import {
 } from "metabase/visualizations/lib/settings/utils";
 import { columnSettings } from "metabase/visualizations/lib/settings/column";
 
-import FunnelNormal from "../components/FunnelNormal";
-import FunnelBar from "../components/FunnelBar";
-import LegendHeader from "../components/LegendHeader";
+import FunnelNormal from "../../components/FunnelNormal";
+import FunnelBar from "../../components/FunnelBar";
+import LegendHeader from "../../components/LegendHeader";
 
 import _ from "underscore";
 import cx from "classnames";

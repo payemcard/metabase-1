@@ -3,9 +3,9 @@ import React, { Component } from "react";
 import { t } from "ttag";
 import ChoroplethMap, {
   getColorplethColorScale,
-} from "../components/ChoroplethMap";
-import PinMap from "../components/PinMap";
-import LeafletGridHeatMap from "../components/LeafletGridHeatMap";
+} from "../../components/ChoroplethMap";
+import PinMap from "../../components/PinMap";
+import LeafletGridHeatMap from "../../components/LeafletGridHeatMap";
 
 import { ChartSettingsError } from "metabase/visualizations/lib/errors";
 import {

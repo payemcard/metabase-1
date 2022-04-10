@@ -4,6 +4,10 @@ import _ from "underscore";
 const visualizations = new Map();
 const aliases = new Map();
 visualizations.get = function(key) {
+  console.log("key ->", key);
+  console.log("aliases.get(key) ->", aliases.get(key));
+  console.log("defaultVisualization ->", defaultVisualization);
+
   return (
     Map.prototype.get.call(this, key) ||
     aliases.get(key) ||

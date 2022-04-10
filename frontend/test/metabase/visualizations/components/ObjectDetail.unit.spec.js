@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 
-import { ObjectDetail } from "metabase/visualizations/visualizations/ObjectDetail";
+import { ObjectDetail } from "metabase/visualizations/visualizations/basic/ObjectDetail";
 import { TYPE } from "metabase/lib/types";
 
 const objectDetailCard = {

@@ -1,6 +1,6 @@
 import { t } from "ttag";
-import LineAreaBarChart from "../components/LineAreaBarChart.jsx";
-import rowRenderer from "../lib/RowRenderer.js";
+import LineAreaBarChart from "../../components/LineAreaBarChart.jsx";
+import rowRenderer from "../../lib/RowRenderer.js";
 
 import {
   GRAPH_DATA_SETTINGS,

@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import Scalar from "metabase/visualizations/visualizations/Scalar";
+import Scalar from "metabase/visualizations/visualizations/basic/Scalar";
 
 const series = (value = 1.23) => [
   {

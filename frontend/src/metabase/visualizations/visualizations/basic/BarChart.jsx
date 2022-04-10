@@ -1,6 +1,6 @@
 import { t } from "ttag";
-import LineAreaBarChart from "../components/LineAreaBarChart.jsx";
-import { barRenderer } from "../lib/LineAreaBarRenderer";
+import LineAreaBarChart from "../../components/LineAreaBarChart.jsx";
+import { barRenderer } from "../../lib/LineAreaBarRenderer";
 import { assocIn } from "icepick";
 
 import {
@@ -10,7 +10,7 @@ import {
   GRAPH_COLORS_SETTINGS,
   GRAPH_AXIS_SETTINGS,
   GRAPH_DISPLAY_VALUES_SETTINGS,
-} from "../lib/settings/graph";
+} from "../../lib/settings/graph";
 
 export default class BarChart extends LineAreaBarChart {
   static uiName = t`Bar`;

@@ -2,8 +2,8 @@
 import React, { Component } from "react";
 import styles from "./PieChart.css";
 import { t } from "ttag";
-import ChartTooltip from "../components/ChartTooltip";
-import ChartWithLegend from "../components/ChartWithLegend";
+import ChartTooltip from "../../components/ChartTooltip";
+import ChartWithLegend from "../../components/ChartWithLegend";
 
 import {
   ChartSettingsError,
