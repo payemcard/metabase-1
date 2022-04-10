@@ -108,7 +108,7 @@ export function Graph3() {
               type="area"
               series={item.data}
               options={chartOptions}
-              height={364}
+              height={324}
             />
           )}
         </Box>

@@ -5,6 +5,7 @@ const USE_MINIMAL = true;
 
 const minimalMap = {
   bar: "minimal_bar",
+  pie: "minimal_pie",
 };
 
 const visualizations = new Map();

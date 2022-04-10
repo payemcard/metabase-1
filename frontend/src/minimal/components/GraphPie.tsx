@@ -7,7 +7,7 @@ import { fNumber } from "../utils/formatNumber";
 import { BaseOptionChart } from "../utils/chart";
 import { ThemeProvider } from "../theme";
 
-const CHART_HEIGHT = 392;
+const CHART_HEIGHT = 372;
 const LEGEND_HEIGHT = 72;
 
 const ChartWrapperStyle = styled("div")(({ theme }) => ({
