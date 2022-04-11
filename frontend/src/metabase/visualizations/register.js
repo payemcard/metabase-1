@@ -23,6 +23,7 @@ import ObjectDetail from "./visualizations/basic/ObjectDetail";
 import PivotTable from "./visualizations/basic/PivotTable";
 import MinimalLineChart from "./visualizations/minimal/MinimalLineChart";
 import MinimalPieChart from "./visualizations/minimal/MinimalPieChart";
+import MinimalTrends from "./visualizations/minimal/MinimalTrends";
 
 export default function() {
   // basic
@@ -48,6 +49,7 @@ export default function() {
   // minimal
   registerVisualization(MinimalLineChart);
   registerVisualization(MinimalPieChart);
+  registerVisualization(MinimalTrends);
 
   setDefaultVisualization(Table);
 }

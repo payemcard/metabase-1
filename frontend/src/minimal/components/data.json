@@ -1,0 +1,136 @@
+{
+  "rows": [
+    [1, 46],
+    [2, 135],
+    [3, 205],
+    [4, 740],
+    [5, 1112]
+  ],
+  "cols": [
+    {
+      "description": "The rating (on a scale of 1-5) the user left.",
+      "semantic_type": "type/Score",
+      "table_id": 4,
+      "coercion_strategy": null,
+      "binning_info": {
+        "min_value": 1,
+        "max_value": 5,
+        "num_bins": 8,
+        "bin_width": 0.5,
+        "binning_strategy": "num-bins"
+      },
+      "name": "RATING",
+      "settings": null,
+      "source": "breakout",
+      "field_ref": [
+        "field",
+        31,
+        {
+          "binning": {
+            "strategy": "num-bins",
+            "min-value": 1,
+            "max-value": 5,
+            "num-bins": 8,
+            "bin-width": 0.5
+          }
+        }
+      ],
+      "effective_type": "type/Decimal",
+      "nfc_path": null,
+      "parent_id": null,
+      "id": 31,
+      "visibility_type": "normal",
+      "display_name": "Rating",
+      "fingerprint": {
+        "global": {
+          "distinct-count": 5,
+          "nil%": 0
+        },
+        "type": {
+          "type/Number": {
+            "min": 1,
+            "q1": 3.54744353181696,
+            "q3": 4.764807071650455,
+            "max": 5,
+            "sd": 1.0443899855660577,
+            "avg": 3.987410071942446
+          }
+        }
+      },
+      "base_type": "type/Decimal"
+    },
+    {
+      "base_type": "type/BigInteger",
+      "semantic_type": "type/Quantity",
+      "name": "count",
+      "display_name": "Count",
+      "source": "aggregation",
+      "field_ref": ["aggregation", 0],
+      "effective_type": "type/BigInteger"
+    }
+  ],
+  "_transformed": true,
+  "_rawCols": [
+    {
+      "description": "The rating (on a scale of 1-5) the user left.",
+      "semantic_type": "type/Score",
+      "table_id": 4,
+      "coercion_strategy": null,
+      "binning_info": {
+        "min_value": 1,
+        "max_value": 5,
+        "num_bins": 8,
+        "bin_width": 0.5,
+        "binning_strategy": "num-bins"
+      },
+      "name": "RATING",
+      "settings": null,
+      "source": "breakout",
+      "field_ref": [
+        "field",
+        31,
+        {
+          "binning": {
+            "strategy": "num-bins",
+            "min-value": 1,
+            "max-value": 5,
+            "num-bins": 8,
+            "bin-width": 0.5
+          }
+        }
+      ],
+      "effective_type": "type/Decimal",
+      "nfc_path": null,
+      "parent_id": null,
+      "id": 31,
+      "visibility_type": "normal",
+      "display_name": "Rating",
+      "fingerprint": {
+        "global": {
+          "distinct-count": 5,
+          "nil%": 0
+        },
+        "type": {
+          "type/Number": {
+            "min": 1,
+            "q1": 3.54744353181696,
+            "q3": 4.764807071650455,
+            "max": 5,
+            "sd": 1.0443899855660577,
+            "avg": 3.987410071942446
+          }
+        }
+      },
+      "base_type": "type/Decimal"
+    },
+    {
+      "base_type": "type/BigInteger",
+      "semantic_type": "type/Quantity",
+      "name": "count",
+      "display_name": "Count",
+      "source": "aggregation",
+      "field_ref": ["aggregation", 0],
+      "effective_type": "type/BigInteger"
+    }
+  ]
+}
