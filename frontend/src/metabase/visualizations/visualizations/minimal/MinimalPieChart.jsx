@@ -27,8 +27,6 @@ export default class MinimalPieChart extends LineAreaBarChart {
   };
 
   render() {
-    console.log('this.props ->', this.props);
-    
     return <ThemeProvider>
       <GraphPie />
     </ThemeProvider>

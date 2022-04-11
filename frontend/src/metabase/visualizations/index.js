@@ -1,4 +1,4 @@
-import { t } from "ttag";
+import { c, t } from "ttag";
 import _ from "underscore";
 
 const USE_MINIMAL = true;
@@ -10,7 +10,10 @@ const minimalMap = {
 
 const visualizations = new Map();
 const aliases = new Map();
+
 visualizations.get = function(rawKey) {
+  console.log("rawKey ->", rawKey);
+
   const minimalKey = minimalMap[rawKey] || rawKey;
   const key = USE_MINIMAL ? minimalKey : rawKey;
 
