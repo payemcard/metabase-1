@@ -1,7 +1,7 @@
 import merge from "lodash/merge";
 import React from "react";
 import ReactApexChart from "react-apexcharts";
-import { BaseOptionChart } from "../utils/chart";
+import { BaseOptionChart } from "../../utils/chart";
 import { Box, CardHeader, TextField } from "@mui/material";
 import { useState } from "react";
 
@@ -16,7 +16,7 @@ const CHART_DATA = [
   },
 ];
 
-export function Graph3() {
+export function GraphLines() {
   const chartOptions = merge(BaseOptionChart(), {
     legend: { position: "top", horizontalAlign: "right" },
     xaxis: {

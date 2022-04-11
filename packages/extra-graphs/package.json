@@ -23,6 +23,7 @@
     "lodash": "^4.17.21",
     "numeral": "^2.0.6",
     "react-apexcharts": "^1.4.0",
+    "react-use": "^17.3.2",
     "ttag": "^1.7.24"
   }
 }

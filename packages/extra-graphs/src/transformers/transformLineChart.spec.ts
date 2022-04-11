@@ -1,10 +1,8 @@
+import * as datasets from "../data/data.chart";
 import { transformerLineChart, sum } from "./transformLineChart";
-
-const a = 10;
-const b = 5;
 
 describe("Line chart", () => {
   it("one series", () => {
-    expect(sum(a, b)).toEqual(15);
+    expect(transformerLineChart(datasets.simpleChart)).toEqual([]);
   });
 });
