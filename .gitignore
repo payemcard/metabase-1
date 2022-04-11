@@ -81,3 +81,4 @@ dev/src/dev/nocommit/
 !.lsp/config.edn
 .clj-kondo/.cache
 *.code-workspace
+frontend/src/extra-graphs/node_modules

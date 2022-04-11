@@ -1,7 +1,7 @@
 import React from "react";
 import { alpha } from "@mui/material/styles";
 import { GlobalStyles } from "@mui/material";
-import cssStyles from "../../utils/cssStyles";
+import cssStyles from "../cssStyles";
 import { useTheme } from "@mui/material/styles";
 
 export default function ChartStyle() {

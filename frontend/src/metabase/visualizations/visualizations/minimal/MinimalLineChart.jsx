@@ -29,6 +29,7 @@ export default class MinimalLineChart extends LineAreaBarChart {
   render() {
     console.log('this.props ->',  this.props);
     
+    
     return <ThemeProvider>
       <Graph3 />
     </ThemeProvider>
