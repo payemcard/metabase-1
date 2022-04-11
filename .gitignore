@@ -3,27 +3,27 @@
 *.jar
 *.log
 *.po~
-*.sqlite
+# *.sqlite
 *.trace.db
 *.xcworkspacedata
-.DS_Store
+# .DS_Store
 .\#*
 .cpcache/
 .eastwood
 .idea/
 .nrepl-port
 .vscode
-/*.h2.db
-/*.lock.db
-/*.mv.db
-/*.trace.db
+# /*.h2.db
+# /*.lock.db
+# /*.mv.db
+# /*.trace.db
 /.babel_cache
 /.env
 /.lein-env
 /.lein-failures
 /.lein-plugins
 /.lein-repl-history
-/.sqlite.db
+# /.sqlite.db
 /backend-checksums.txt
 /build.xml
 /checkouts
@@ -52,10 +52,10 @@
 /resources/license-backend-third-party.txt
 /resources/license-frontend-third-party.txt
 /resources/namespaces.edn
-/resources/sample-dataset.db.trace.db
+# /resources/sample-dataset.db.trace.db
 /resources/version.properties
 /screenshots
-/sqlite.db
+# /sqlite.db
 /stats.json
 /storybook-static
 /target
