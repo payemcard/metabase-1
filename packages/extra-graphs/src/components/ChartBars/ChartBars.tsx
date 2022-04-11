@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./ChartBars.style";
 import ReactApexChart from "react-apexcharts";
+import * as data from "../../data/data.lines";
 
 const CHART_DATA = [44, 75];
 

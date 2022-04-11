@@ -25,6 +25,14 @@ export const Bootstrap = (props: any) => {
         </Row>
         <Row>
           <Item>
+            <img width="900px" src="/lines.png" />
+          </Item>
+          <Item>
+            <ChartLines />
+          </Item>
+        </Row>
+        <Row>
+          <Item>
             <img width="900px" src="/bars.png" />
           </Item>
           <Item>
@@ -39,14 +47,7 @@ export const Bootstrap = (props: any) => {
             <ChartTrends />
           </Item>
         </Row>
-        <Row>
-          <Item>
-            <img width="900px" src="/lines.png" />
-          </Item>
-          <Item>
-            <ChartLines />
-          </Item>
-        </Row>
+
         <Row>
           <Item>
             <img width="900px" src="/table.png" />

@@ -1,19 +1,20 @@
 import React from "react";
 import { Container } from "./ChartLines.style";
 import ReactApexChart from "react-apexcharts";
+import { transformLineChart } from "../../transformers/transformLineChart";
+import * as data from "../../data/data.lines";
+import { ChartType } from "../../components/types";
 
 export type ChartLinesProps = {};
 
-const CHART_DATA = [
-  {
-    name: "Total Income",
-    data: [10, 41, 35, 151, 49, 62, 69, 91, 48],
-  },
-  {
-    name: "Total Expenses",
-    data: [10, 34, 13, 56, 77, 88, 99, 77, 45],
-  },
-];
+const CHART_DATA = transformLineChart(data.dataLinesOneSeries);
+
+// const CHART_DATA = [
+//   {
+//     name: "Total Income",
+//     data: [10, 41, 35, 151, 49, 62, 69, 91, 48],
+//   },
+// ];
 
 export function ChartLines(_props: ChartLinesProps) {
   return (
@@ -22,7 +23,7 @@ export function ChartLines(_props: ChartLinesProps) {
       data-testid="ChartLines-container"
     >
       <ReactApexChart
-        type="area"
+        type={ChartType.line}
         series={CHART_DATA}
         options={{}}
         height={324}

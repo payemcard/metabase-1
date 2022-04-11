@@ -6,9 +6,12 @@
   "description": "Extending metabase graph library with extra graphs",
   "license": "private",
   "devDependencies": {
+    "@testing-library/react": "^13.0.0",
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
     "jest-cli": "^27.5.1",
+    "react-dom": "^18.0.0",
+    "react-test-renderer": "^18.0.0",
     "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
   },
@@ -22,8 +25,10 @@
     "date-fns": "^2.28.0",
     "lodash": "^4.17.21",
     "numeral": "^2.0.6",
+    "react": "^18.0.0",
     "react-apexcharts": "^1.4.0",
     "react-use": "^17.3.2",
+    "styled-components": "^5.3.5",
     "ttag": "^1.7.24"
   }
 }

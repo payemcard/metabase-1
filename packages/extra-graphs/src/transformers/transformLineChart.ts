@@ -1,7 +1,10 @@
-export const transformerLineChart = () => {
-  return 1;
-};
+export const transformLineChart = (input: any) => {
+  const data = input.rows.map((i: any) => i[1]);
 
-export const sum = (a: number, b: number) => {
-  return a + b;
+  return [
+    {
+      name: "Total Income",
+      data,
+    },
+  ];
 };

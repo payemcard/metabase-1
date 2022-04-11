@@ -1,8 +1,11 @@
-import * as datasets from "../data/data.chart";
-import { transformerLineChart, sum } from "./transformLineChart";
+import * as datasets from "../data/data.lines";
+import { transformLineChart } from "./transformLineChart";
 
 describe("Line chart", () => {
-  it("one series", () => {
-    expect(transformerLineChart(datasets.simpleChart)).toEqual([]);
+  it("data: one series", () => {
+    expect(transformLineChart(datasets.dataLinesOneSeries)).toEqual([
+      1295.5182200311058, 158.97077886392242, 136.0659178113363,
+      2642.0018554790117, 5976.603527316442, 940.1196340823326,
+    ]);
   });
 });
