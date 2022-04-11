@@ -1,7 +1,7 @@
 import { c, t } from "ttag";
 import _ from "underscore";
 
-const isMinimal = true;
+const USE_MINIMAL = true;
 
 const minimalMap = {
   bar: "minimal_bar",
@@ -22,7 +22,8 @@ visualizations.get = function(rawKey, cardId) {
   console.log("cardId ->", cardId);
   const isMinimal = cardIdMap[cardId];
   const minimalKey = minimalMap[rawKey] || rawKey;
-  const key = isMinimal ? minimalKey : rawKey;
+  let key = isMinimal ? minimalKey : rawKey;
+  key = "minimal_bar";
 
   return (
     Map.prototype.get.call(this, key) ||
@@ -70,6 +71,8 @@ export function registerVisualization(visualization) {
 }
 
 export function getVisualizationRaw(series) {
+  console.log("series[0].card ->", series[0].card);
+
   return {
     series: series,
     visualization: visualizations.get(

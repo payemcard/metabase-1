@@ -1,7 +1,7 @@
 import { transformerLineChart } from "./transformLineChart";
 
 describe("Line chart", () => {
-  it("only data", () => {
+  it("one series", () => {
     expect(transformerLineChart()).toEqual(1);
   });
 });
