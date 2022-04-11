@@ -1,5 +1,14 @@
 import { useCallback, useMemo, useState } from "react";
-import { ThemeProvider, GraphPie, GraphLines } from "extra-graphs";
+import {
+  ThemeProvider,
+  GraphPie,
+  GraphLines,
+  ChartPie,
+  ChartLines,
+  ChartBars,
+  ChartTrends,
+  Table,
+} from "extra-graphs";
 import { Content, Row, Item } from "./Bootstrap.style";
 
 export const Bootstrap = (props: any) => {
@@ -11,7 +20,7 @@ export const Bootstrap = (props: any) => {
             <img width="900px" src="/pie.png" />
           </Item>
           <Item>
-            <GraphPie />
+            <ChartPie />
           </Item>
         </Row>
         <Row>
@@ -19,7 +28,7 @@ export const Bootstrap = (props: any) => {
             <img width="900px" src="/bars.png" />
           </Item>
           <Item>
-            <GraphLines />
+            <ChartBars />
           </Item>
         </Row>
         <Row>
@@ -27,7 +36,7 @@ export const Bootstrap = (props: any) => {
             <img width="900px" src="/trends.png" />
           </Item>
           <Item>
-            <GraphPie />
+            <ChartTrends />
           </Item>
         </Row>
         <Row>
@@ -35,7 +44,7 @@ export const Bootstrap = (props: any) => {
             <img width="900px" src="/lines.png" />
           </Item>
           <Item>
-            <GraphPie />
+            <ChartLines />
           </Item>
         </Row>
         <Row>
@@ -43,7 +52,7 @@ export const Bootstrap = (props: any) => {
             <img width="900px" src="/table.png" />
           </Item>
           <Item>
-            <GraphPie />
+            <Table />
           </Item>
         </Row>
       </Content>
