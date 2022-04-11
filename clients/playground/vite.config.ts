@@ -5,7 +5,7 @@ const svgLoader = require("vite-plugin-react-svg");
 const path = require("path");
 require("dotenv-flow").config();
 
-const cwd = path.resolve(process.cwd(), "../");
+const cwd = path.resolve(process.cwd(), "../../");
 const host = process.env.VITE_SERVER_DOMAIN.replace(/https?:\/\//, "");
 
 // https://vitejs.dev/config/
@@ -22,7 +22,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "extra-graphs": `${cwd}/frontend/src/extra-graphs`,
+      "extra-graphs": `${cwd}/packages/extra-graphs/src`,
     },
   },
   server: {
