@@ -32,6 +32,14 @@ export const Bootstrap = (props: any) => {
         </Row>
         <Row>
           <Item>
+            <img width="900px" src="/lines.png" />
+          </Item>
+          <Item>
+            <GraphPie />
+          </Item>
+        </Row>
+        <Row>
+          <Item>
             <img width="900px" src="/table.png" />
           </Item>
           <Item>
