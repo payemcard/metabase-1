@@ -1,0 +1,12 @@
+{
+  "name": "extra-graphs",
+  "private": true,
+  "main": "index.jsx",
+  "version": "0.0.0",
+  "description": "Extending metabase graph library with extra graphs",
+  "repository": "https://github.com/metabase/metabase",
+  "license": "private",
+  "devDependencies": {
+    "ts-jest": "^27.1.4"
+  }
+}

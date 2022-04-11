@@ -1,0 +1,1 @@
+rsync -avzh -e "ssh -i $HOME/.ssh/id_fronthand_server" ~/projects/mono/clients/web/dist/ ubuntu@172.20.0.212:/home/ubuntu/projects/web
