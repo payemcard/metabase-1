@@ -3,9 +3,9 @@ import merge from "lodash/merge";
 import ReactApexChart from "react-apexcharts";
 import { useTheme, styled } from "@mui/material/styles";
 import { CardHeader } from "@mui/material";
-import { fNumber } from "../utils/formatNumber";
-import { BaseOptionChart } from "../utils/chart";
-import { ThemeProvider } from "../theme";
+import { fNumber } from "../../utils/formatNumber";
+import { BaseOptionChart } from "../../utils/chart";
+import { ThemeProvider } from "../../theme";
 
 const CHART_HEIGHT = 372;
 const LEGEND_HEIGHT = 72;
@@ -30,6 +30,8 @@ const CHART_DATA = [44, 75];
 
 export function GraphPie() {
   const theme = useTheme();
+
+  console.log("base options", JSON.stringify(BaseOptionChart()));
 
   const chartOptions = merge(BaseOptionChart(), {
     labels: ["Marketing", "Sales"],
@@ -73,6 +75,8 @@ export function GraphPie() {
       },
     },
   });
+
+  console.log("JSON.stringify(chartOptions) ->", JSON.stringify(chartOptions));
 
   return (
     <ThemeProvider>

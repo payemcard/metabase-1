@@ -4,6 +4,7 @@ import ReactApexChart from "react-apexcharts";
 import { transformLineChart } from "../../transformers/transformLineChart";
 import * as data from "../../data/data.lines";
 import { ChartType } from "../../components/types";
+import { linesOptions } from "../../config/apexOptions";
 
 export type ChartLinesProps = {};
 
@@ -23,9 +24,9 @@ export function ChartLines(_props: ChartLinesProps) {
       data-testid="ChartLines-container"
     >
       <ReactApexChart
-        type={ChartType.line}
+        type={ChartType.area}
         series={CHART_DATA}
-        options={{}}
+        options={linesOptions}
         height={324}
       />
     </Container>

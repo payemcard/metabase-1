@@ -1,8 +1,6 @@
 import { useCallback, useMemo, useState } from "react";
 import {
   ThemeProvider,
-  GraphPie,
-  GraphLines,
   ChartPie,
   ChartLines,
   ChartBars,

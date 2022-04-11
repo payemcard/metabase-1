@@ -1,9 +1,9 @@
-export const dataLinesOneSeries = {
+export const dataBarsOneSeries = {
   rows: [
     [0, 1295.51],
     [1.5, 158.97],
     [2.25, 136.06],
-    [3, 2642.0018],
+    [3, 2642.0],
     [3.75, 5976.6],
     [4.5, 940.11],
   ],
