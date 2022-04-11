@@ -868,6 +868,7 @@ export default function lineAreaBar(element, props) {
   initChart(parent, element);
 
   // add these convienence aliases so we don't have to pass a bunch of things around
+  console.log('line props: ', props)
   parent.props = props;
   parent.settings = settings;
   parent.series = props.series;

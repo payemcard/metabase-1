@@ -18,16 +18,10 @@ const cardIdMap = {
 const visualizations = new Map();
 const aliases = new Map();
 visualizations.get = function(rawKey, id) {
-  const isMinimal = id === 4
-  const minimalKey = minimalMap[rawKey] || rawKey;
-  console.log('rawKey :>> ', rawKey);
-  const key = 'minimal_bar'
-  console.log('key :>> ', key);
-  console.log('this :>> ', this);
 
   return (
-    Map.prototype.get.call(this, key) ||
-    aliases.get(key) ||
+    Map.prototype.get.call(this, rawKey) ||
+    aliases.get(rawKey) ||
     defaultVisualization
   );
 };

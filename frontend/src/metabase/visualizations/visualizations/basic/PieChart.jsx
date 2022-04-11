@@ -219,6 +219,8 @@ export default class PieChart extends Component {
       settings,
     } = this.props;
 
+    console.log('chart props: ', this.props)
+
     const [
       {
         data: { cols, rows },
