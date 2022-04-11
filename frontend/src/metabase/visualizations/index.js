@@ -10,10 +10,13 @@ const minimalMap = {
 
 const visualizations = new Map();
 const aliases = new Map();
-visualizations.get = function(rawKey) {
+visualizations.get = function(rawKey, id) {
+  const isMinimal = id === 4
   const minimalKey = minimalMap[rawKey] || rawKey;
-  const key = USE_MINIMAL ? minimalKey : rawKey;
-
+  console.log('rawKey :>> ', rawKey);
+  const key = 'minimal_bar'
+  console.log('key :>> ', key);
+  console.log('this :>> ', this);
   return (
     Map.prototype.get.call(this, key) ||
     aliases.get(key) ||
@@ -59,10 +62,10 @@ export function registerVisualization(visualization) {
   }
 }
 
-export function getVisualizationRaw(series) {
+export function getVisualizationRaw(series, id) {
   return {
     series: series,
-    visualization: visualizations.get(series[0].card.display),
+    visualization: visualizations.get(series[0].card.display, id),
   };
 }
 
