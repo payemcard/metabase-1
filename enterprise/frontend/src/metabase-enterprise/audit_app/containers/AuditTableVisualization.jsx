@@ -9,7 +9,7 @@ import { registerVisualization } from "metabase/visualizations/index";
 import { formatColumn, formatValue } from "metabase/lib/formatting";
 import { isColumnRightAligned } from "metabase/visualizations/lib/table";
 
-import Table from "metabase/visualizations/visualizations/Table";
+import Table from "metabase/visualizations/visualizations/basic/Table";
 
 import EmptyState from "metabase/components/EmptyState";
 import Icon from "metabase/components/Icon";

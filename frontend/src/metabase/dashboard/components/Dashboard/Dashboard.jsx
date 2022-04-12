@@ -245,77 +245,80 @@ export default class Dashboard extends Component {
       (!isEditing || isEditingParameter);
 
     return (
-      <DashboardLoadingAndErrorWrapper
-        isFullHeight={isEditing || isSharing}
-        isFullscreen={isFullscreen}
-        isNightMode={shouldRenderAsNightMode}
-        loading={!dashboard}
-        error={error}
-      >
-        {() => (
-          <DashboardStyled>
-            <HeaderContainer
-              isFullscreen={isFullscreen}
-              isNightMode={shouldRenderAsNightMode}
-            >
-              <DashboardHeader
-                {...this.props}
-                onEditingChange={this.setEditing}
-                setDashboardAttribute={this.setDashboardAttribute}
-                addParameter={addParameter}
-                parametersWidget={parametersWidget}
-                onSharingClick={this.onSharingClick}
-                onToggleAddQuestionSidebar={this.onToggleAddQuestionSidebar}
-                showAddQuestionSidebar={showAddQuestionSidebar}
-              />
-
-              {shouldRenderParametersWidgetInEditMode && (
-                <ParametersWidgetContainer isEditing={isEditing}>
-                  {parametersWidget}
-                </ParametersWidgetContainer>
-              )}
-            </HeaderContainer>
-
-            <DashboardBody isEditingOrSharing={isEditing || isSharing}>
-              <ParametersAndCardsContainer
-                data-testid="dashboard-parameters-and-cards"
-                ref={element => (this.parametersAndCardsContainerRef = element)}
+        <DashboardLoadingAndErrorWrapper
+          isFullHeight={isEditing || isSharing}
+          isFullscreen={isFullscreen}
+          isNightMode={shouldRenderAsNightMode}
+          loading={!dashboard}
+          error={error}
+        >
+          {() => (
+            <DashboardStyled>
+              <HeaderContainer
+                isFullscreen={isFullscreen}
+                isNightMode={shouldRenderAsNightMode}
               >
-                {shouldRenderParametersWidgetInViewMode && (
-                  <ParametersWidgetContainer
-                    ref={element => (this.parametersWidgetRef = element)}
-                    isNavbarOpen={isNavbarOpen}
-                    isSticky={isParametersWidgetSticky}
-                  >
+                <DashboardHeader
+                  {...this.props}
+                  onEditingChange={this.setEditing}
+                  setDashboardAttribute={this.setDashboardAttribute}
+                  addParameter={addParameter}
+                  parametersWidget={parametersWidget}
+                  onSharingClick={this.onSharingClick}
+                  onToggleAddQuestionSidebar={this.onToggleAddQuestionSidebar}
+                  showAddQuestionSidebar={showAddQuestionSidebar}
+                />
+
+                {shouldRenderParametersWidgetInEditMode && (
+                  <ParametersWidgetContainer isEditing={isEditing}>
                     {parametersWidget}
                   </ParametersWidgetContainer>
                 )}
+              </HeaderContainer>
 
-                <CardsContainer
-                  addMarginTop={cardsContainerShouldHaveMarginTop}
+              <DashboardBody isEditingOrSharing={isEditing || isSharing}>
+                <ParametersAndCardsContainer
+                  data-testid="dashboard-parameters-and-cards"
+                  ref={element =>
+                    (this.parametersAndCardsContainerRef = element)
+                  }
                 >
-                  {dashboardHasCards(dashboard) ? (
-                    <DashboardGrid
-                      {...this.props}
-                      onEditingChange={this.setEditing}
-                    />
-                  ) : (
-                    <DashboardEmptyState
-                      isNightMode={shouldRenderAsNightMode}
-                    />
+                  {shouldRenderParametersWidgetInViewMode && (
+                    <ParametersWidgetContainer
+                      ref={element => (this.parametersWidgetRef = element)}
+                      isNavbarOpen={isNavbarOpen}
+                      isSticky={isParametersWidgetSticky}
+                    >
+                      {parametersWidget}
+                    </ParametersWidgetContainer>
                   )}
-                </CardsContainer>
-              </ParametersAndCardsContainer>
 
-              <DashboardSidebars
-                {...this.props}
-                onCancel={this.onCancel}
-                showAddQuestionSidebar={showAddQuestionSidebar}
-              />
-            </DashboardBody>
-          </DashboardStyled>
-        )}
-      </DashboardLoadingAndErrorWrapper>
+                  <CardsContainer
+                    addMarginTop={cardsContainerShouldHaveMarginTop}
+                  >
+                    {dashboardHasCards(dashboard) ? (
+                      <DashboardGrid
+                        {...this.props}
+                        onEditingChange={this.setEditing}
+                      />
+                    ) : (
+                      <DashboardEmptyState
+                        isNightMode={shouldRenderAsNightMode}
+                      />
+                    )}
+                  </CardsContainer>
+                </ParametersAndCardsContainer>
+
+                <DashboardSidebars
+                  {...this.props}
+                  onCancel={this.onCancel}
+                  showAddQuestionSidebar={showAddQuestionSidebar}
+                />
+              </DashboardBody>
+            </DashboardStyled>
+          )}
+        </DashboardLoadingAndErrorWrapper>
+        
     );
   }
 }

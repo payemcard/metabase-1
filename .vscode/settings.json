@@ -3,5 +3,23 @@
     "grunt.autoDetect": "off",
     "jake.autoDetect": "off",
     "gulp.autoDetect": "off",
-    "npm.autoDetect": "off"
+    "npm.autoDetect": "off",
+    "favorites.resources": [
+        {
+            "filePath": "frontend/src/metabase/visualizations/register.js",
+            "group": "Default"
+        },
+        {
+            "filePath": "frontend/src/minimal/components/Graph1.tsx",
+            "group": "Default"
+        },
+        {
+            "filePath": "frontend/src/metabase/visualizations/index.js",
+            "group": "Default"
+        },
+        {
+            "filePath": "frontend/src/metabase/visualizations/visualizations/minimal/MinimalLineChart.jsx",
+            "group": "Default"
+        }
+    ]
 }

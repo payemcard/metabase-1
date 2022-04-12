@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from "react";
 
-import BarChart from "metabase/visualizations/visualizations/BarChart";
+import BarChart from "metabase/visualizations/visualizations/basic/BarChart";
 
 import { getComputedSettingsForSeries } from "metabase/visualizations/lib/settings/visualization";
 import { assocIn } from "icepick";

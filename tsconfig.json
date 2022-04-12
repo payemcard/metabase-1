@@ -31,6 +31,6 @@
     "frontend/test/**/*.tsx",
     "enterprise/frontend/test/**/*.ts",
     "enterprise/frontend/test/**/*.tsx"
-  ],
+, "frontend/src/minimal/components/YearlySales.jsx", "frontend/src/minimal/components/AnalyticsTrafficBySite.jsx", "frontend/src/minimal/components/BankingWidgetSummary.jsx", "frontend/src/minimal/components/GraphPie.jsx", "frontend/src/minimal/utils/Iconify.jsx", "frontend/src/minimal/utils/formatTime.js", "frontend/src/minimal/utils/formatNumber.js", "frontend/src/minimal/utils/cssStyles.js", "frontend/src/minimal/utils/createAvatar.js", "frontend/src/minimal/Iconify.jsx", "frontend/src/minimal/index.js", "frontend/src/minimal/index.jsx"  ],
   "exclude": ["node_modules"]
 }

@@ -307,7 +307,7 @@ msgstr "Veritabanı ekle"
 #: frontend/src/metabase/entities/questions/forms.js:6
 #: frontend/src/metabase/lib/expressions/helper_text_strings.js:480
 #: frontend/src/metabase/visualizations/lib/settings/column.js:323
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:83
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:83
 msgid "Name"
 msgstr "İsim"
 
@@ -413,7 +413,7 @@ msgstr "Özel tip yok"
 #: frontend/src/metabase/query_builder/components/DatasetEditor/DatasetFieldMetadataSidebar/DatasetFieldMetadataSidebar.jsx:67
 #: frontend/src/metabase/reference/components/Field.jsx:54
 #: frontend/src/metabase/reference/components/FieldTypeDetail.jsx:36
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:274
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:274
 #: src/metabase/pulse/render/body.clj
 #: target/classes/metabase/pulse/render/body.clj
 msgid "Other"
@@ -432,10 +432,10 @@ msgstr "Bir hedef seç"
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:852
 #: frontend/src/metabase/dashboard/components/ClickMappings.jsx:171
 #: frontend/src/metabase/query_builder/components/notebook/steps/FieldsPicker.jsx:20
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:86
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:98
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:129
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:165
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:86
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:98
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:129
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:165
 msgid "Columns"
 msgstr "Sütunlar"
 
@@ -2859,7 +2859,7 @@ msgid "Create dashboard"
 msgstr "Dashboard oluştur"
 
 #: frontend/src/metabase/nav/components/utils.js:7
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:38
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:38
 msgid "Table"
 msgstr "Tablo"
 
@@ -3233,7 +3233,7 @@ msgstr "en son veri alındı"
 
 #: frontend/src/metabase/home/components/Activity.jsx:257
 #: frontend/src/metabase/lib/query_time.js:185
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:302
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:302
 #: enterprise/backend/src/metabase_enterprise/enhancements/integrations/ldap.clj
 #: enterprise/backend/src/metabase_enterprise/sso/integrations/jwt.clj
 #: src/metabase/integrations/ldap/default_implementation.clj
@@ -3460,7 +3460,7 @@ msgstr "Boylam"
 #: frontend/src/metabase/parameters/utils/dashboard-options.js:32
 #: frontend/src/metabase/parameters/utils/dashboard-options.js:34
 #: frontend/src/metabase/query_builder/components/template_tags/TagEditorParam.jsx:150
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:39
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:39
 msgid "Number"
 msgstr "Numara"
 
@@ -5204,14 +5204,14 @@ msgstr "Bir gruplama ekle"
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:91
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:137
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:189
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:66
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:106
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:113
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:307
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:313
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:319
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:105
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:110
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:66
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:106
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:113
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:307
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:313
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:319
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:105
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:110
 msgid "Data"
 msgstr "Veri"
 
@@ -5661,7 +5661,7 @@ msgid "Enter desired number"
 msgstr "İstenen numarayı giriniz"
 
 #: frontend/src/metabase/query_builder/components/filters/pickers/SelectPicker.jsx:61
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:127
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:127
 msgid "Empty"
 msgstr "Boş"
 
@@ -5739,7 +5739,7 @@ msgstr "Değişken tip"
 
 #: frontend/src/metabase/parameters/utils/dashboard-options.js:40
 #: frontend/src/metabase/query_builder/components/template_tags/TagEditorParam.jsx:149
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:252
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:252
 msgid "Text"
 msgstr "Metin"
 
@@ -6666,7 +6666,7 @@ msgid "Which fields do you want to use for the X and Y axes?"
 msgstr "X ve Y eksenleri için hangi alanları kullanmak istiyorsunuz?"
 
 #: frontend/src/metabase/visualizations/components/LineAreaBarChart.jsx:117
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:67
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:67
 msgid "Choose fields"
 msgstr "Alanları seç"
 
@@ -6686,7 +6686,7 @@ msgstr "Filtreyi iptal et"
 msgid "Pin Map"
 msgstr "Pin Haritası"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:380
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:380
 msgid "Unset"
 msgstr "Ayarını kaldır"
 
@@ -6829,7 +6829,7 @@ msgid "Highlight the whole row"
 msgstr "Tüm satırı vurgula"
 
 #: frontend/src/metabase/visualizations/components/settings/ChartSettingsTableFormatting.jsx:399
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:133
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:133
 msgid "Colors"
 msgstr "Renkler"
 
@@ -6907,7 +6907,7 @@ msgid "This chart type doesn't support more than {0} series of data."
 msgstr "Bu grafik türü, {0} veri dizisinden daha fazlasını desteklemiyor."
 
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:310
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:66
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:66
 msgid "Goal"
 msgstr "Hedef"
 
@@ -6994,7 +6994,7 @@ msgid "xValues missing!"
 msgstr "xValues eksik!"
 
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:92
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:30
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:30
 msgid "X-axis"
 msgstr "X koordinatı"
 
@@ -7003,7 +7003,7 @@ msgid "Add a series breakout..."
 msgstr "Dizi ayırma ekle ..."
 
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:138
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:34
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:34
 msgid "Y-axis"
 msgstr "X koordinatı"
 
@@ -7015,7 +7015,7 @@ msgstr "Başka bir seri ekle ..."
 msgid "Bubble size"
 msgstr "Kabarcık boyutu"
 
-#: frontend/src/metabase/visualizations/visualizations/LineChart.jsx:15
+#: frontend/src/metabase/visualizations/visualizations/basic/LineChart.jsx:15
 msgid "Line"
 msgstr "Çizgi"
 
@@ -7023,7 +7023,7 @@ msgstr "Çizgi"
 msgid "Curve"
 msgstr "Eğri"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:107
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:107
 msgid "Step"
 msgstr "Adım"
 
@@ -7155,139 +7155,139 @@ msgstr "Y ekseni etiketi"
 msgid "Standard Deviation"
 msgstr "Standart sapma"
 
-#: frontend/src/metabase/visualizations/visualizations/AreaChart.jsx:17
+#: frontend/src/metabase/visualizations/visualizations/basic/AreaChart.jsx:17
 msgid "Area"
 msgstr "Alan"
 
-#: frontend/src/metabase/visualizations/visualizations/AreaChart.jsx:20
+#: frontend/src/metabase/visualizations/visualizations/basic/AreaChart.jsx:20
 msgid "area chart"
 msgstr "alan grafik"
 
-#: frontend/src/metabase/visualizations/visualizations/BarChart.jsx:16
+#: frontend/src/metabase/visualizations/visualizations/basic/BarChart.jsx:16
 msgid "Bar"
 msgstr "Çubuk "
 
-#: frontend/src/metabase/visualizations/visualizations/BarChart.jsx:19
+#: frontend/src/metabase/visualizations/visualizations/basic/BarChart.jsx:19
 msgid "bar chart"
 msgstr "sütun grafik"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:65
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:65
 msgid "Which fields do you want to use?"
 msgstr "Hangi alanları kullanmak istiyorsunuz?"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:35
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:125
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:35
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:125
 msgid "Funnel"
 msgstr "Huni"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:114
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:111
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:114
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:111
 msgid "Measure"
 msgstr "Tedbir"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:120
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:120
 msgid "Funnel type"
 msgstr "Huni tipi"
 
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:126
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:126
 msgid "Bar chart"
 msgstr "Sütun grafik"
 
-#: frontend/src/metabase/visualizations/visualizations/LineChart.jsx:18
+#: frontend/src/metabase/visualizations/visualizations/basic/LineChart.jsx:18
 msgid "line chart"
 msgstr "Çizgi grafik"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:306
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:306
 msgid "Please select longitude and latitude columns in the chart settings."
 msgstr "Grafik ayarlarında boylam ve enlem sütunlarını seçiniz."
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:312
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:312
 msgid "Please select a region map."
 msgstr "Lütfen bir bölge haritası seçin."
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:318
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:318
 msgid "Please select region and metric columns in the chart settings."
 msgstr "Grafik ayarlarında lütfen bölge ve metrik sütunları seçin."
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:39
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:39
 msgid "Map"
 msgstr "Harita"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:133
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:133
 msgid "Map type"
 msgstr "Harita türü"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:137
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:230
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:137
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:230
 msgid "Region map"
 msgstr "Bölge haritası"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:138
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:138
 msgid "Pin map"
 msgstr "PIN haritası"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:184
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:184
 msgid "Pin type"
 msgstr "Pin tipi"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:189
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:189
 msgid "Tiles"
 msgstr "Fayans"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:190
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:190
 msgid "Markers"
 msgstr "İşaretleyiciler"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:208
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:208
 msgid "Latitude field"
 msgstr "Latitude alanı"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:215
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:215
 msgid "Longitude field"
 msgstr "Boylam alanı"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:222
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:250
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:222
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:250
 msgid "Metric field"
 msgstr "Metrik alan"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:254
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:254
 msgid "Region field"
 msgstr "Bölge alanı"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:274
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:274
 msgid "Radius"
 msgstr "Yarıçap"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:280
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:280
 msgid "Blur"
 msgstr "Bulanıklık"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:286
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:286
 msgid "Min Opacity"
 msgstr "Min Opaklık"
 
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:292
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:292
 msgid "Max Zoom"
 msgstr "Maksimum Zum"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:205
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:205
 msgid "No relationships found."
 msgstr "İlişki bulunamadı."
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:243
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:243
 msgid "via {0}"
 msgstr "{0} ile"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:320
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:320
 msgid "This {0} is connected to:"
 msgstr "Bu {0} şuna bağlı:"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:56
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:56
 msgid "Object Detail"
 msgstr "Nesne detay"
 
-#: frontend/src/metabase/visualizations/visualizations/ObjectDetail.jsx:59
+#: frontend/src/metabase/visualizations/visualizations/basic/ObjectDetail.jsx:59
 msgid "object"
 msgstr "nesne"
 
@@ -7295,69 +7295,69 @@ msgstr "nesne"
 #: frontend/src/metabase/visualizations/lib/apply_axis.js:133
 #: frontend/src/metabase/visualizations/lib/apply_axis.js:244
 #: frontend/src/metabase/visualizations/lib/apply_axis.js:315
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:378
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:378
 msgid "Total"
 msgstr "Toplam"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:74
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:74
 msgid "Which columns do you want to use?"
 msgstr "Hangi sütunları kullanmak istiyorsunuz?"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:50
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:50
 msgid "Pie"
 msgstr "Pasta"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:106
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:106
 msgid "Dimension"
 msgstr "Boyut"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:116
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:116
 msgid "Show legend"
 msgstr "Gösteriyi göster"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:121
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:121
 msgid "Show percentages in legend"
 msgstr "Grafikte yüzdeleri göster"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:127
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:127
 msgid "Minimum slice percentage"
 msgstr "Minimum dilim yüzdesi"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/utils.ts:35
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:164
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:164
 msgid "Goal met"
 msgstr "Hedef bir araya geldi"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/utils.ts:37
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:166
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:166
 msgid "Goal exceeded"
 msgstr "Hedef aşıldı"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/ProgressBar.tsx:148
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:233
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:233
 msgid "Goal {0}"
 msgstr "Hedef {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:47
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:47
 msgid "Progress visualization requires a number."
 msgstr "İlerleme görselleştirmesi bir sayı gerektirir."
 
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:31
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:31
 msgid "Progress"
 msgstr "İlerleme"
 
 #: frontend/src/metabase/entities/collections/forms.js:38
 #: frontend/src/metabase/entities/snippet-collections.js:88
-#: frontend/src/metabase/visualizations/visualizations/Map.jsx:258
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:72
+#: frontend/src/metabase/visualizations/visualizations/basic/Map.jsx:258
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:72
 msgid "Color"
 msgstr "Renk"
 
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:13
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:13
 msgid "Row Chart"
 msgstr "Çubuk Grafik"
 
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:14
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:14
 msgid "row chart"
 msgstr "çubuk Grafik"
 
@@ -7365,7 +7365,7 @@ msgstr "çubuk Grafik"
 msgid "Separator style"
 msgstr "Ayırıcı tarzı"
 
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:88
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:88
 msgid "Number of decimal places"
 msgstr "Ondalık yer sayısı"
 
@@ -7381,61 +7381,61 @@ msgstr "Bir sonek ekle"
 msgid "Multiply by a number"
 msgstr "Bir sayı ile çarpın"
 
-#: frontend/src/metabase/visualizations/visualizations/ScatterPlot.jsx:14
+#: frontend/src/metabase/visualizations/visualizations/basic/ScatterPlot.jsx:14
 msgid "Scatter"
 msgstr "Dağıtma"
 
-#: frontend/src/metabase/visualizations/visualizations/ScatterPlot.jsx:17
+#: frontend/src/metabase/visualizations/visualizations/basic/ScatterPlot.jsx:17
 msgid "scatter plot"
 msgstr "dağılım grafiği"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:87
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:87
 msgid "Pivot the table"
 msgstr "Tabloyu döndür"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:73
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:73
 msgid "Visible fields"
 msgstr "Görünür alanlar"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:121
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:121
 msgid "Write here, and use Markdown if you'd like"
 msgstr "Buraya yazın ve isterseniz Markdown'ı kullanın."
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:57
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:57
 msgid "Vertical Alignment"
 msgstr "Dikey hizalama"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:61
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:61
 msgid "Top"
 msgstr "Üst"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:62
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:62
 msgid "Middle"
 msgstr "Orta"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:63
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:63
 msgid "Bottom"
 msgstr "Alt"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:70
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:70
 msgid "Horizontal Alignment"
 msgstr "Yatay hizalama"
 
 #: frontend/src/metabase/visualizations/lib/settings/series.js:118
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:74
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:74
 msgid "Left"
 msgstr "Ayrıldı"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:75
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:75
 msgid "Center"
 msgstr "merkez"
 
 #: frontend/src/metabase/visualizations/lib/settings/series.js:119
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:76
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:76
 msgid "Right"
 msgstr "Sağ"
 
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:83
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:83
 msgid "Show background"
 msgstr "Arka planı göster"
 
@@ -9698,20 +9698,20 @@ msgstr "Paylaşım"
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:337
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:353
 #: frontend/src/metabase/visualizations/lib/settings/nested.js:86
-#: frontend/src/metabase/visualizations/visualizations/Funnel.jsx:121
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:115
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:120
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:126
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:132
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:65
-#: frontend/src/metabase/visualizations/visualizations/Progress.jsx:71
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:56
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:69
-#: frontend/src/metabase/visualizations/visualizations/Text.jsx:82
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:25
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:31
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:37
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:43
+#: frontend/src/metabase/visualizations/visualizations/basic/Funnel.jsx:121
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:115
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:120
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:126
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:132
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:65
+#: frontend/src/metabase/visualizations/visualizations/basic/Progress.jsx:71
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:56
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:69
+#: frontend/src/metabase/visualizations/visualizations/basic/Text.jsx:82
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:25
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:31
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:37
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:43
 msgid "Display"
 msgstr "Göster"
 
@@ -10012,92 +10012,92 @@ msgstr "Otomatik"
 msgid "Which axis?"
 msgstr "Hangi eksen?"
 
-#: frontend/src/metabase/visualizations/visualizations/ComboChart.jsx:16
+#: frontend/src/metabase/visualizations/visualizations/basic/ComboChart.jsx:16
 msgid "Line + Bar"
 msgstr "Çizgi + Çubuk"
 
-#: frontend/src/metabase/visualizations/visualizations/ComboChart.jsx:18
+#: frontend/src/metabase/visualizations/visualizations/basic/ComboChart.jsx:18
 msgid "line and bar chart"
 msgstr "çizgi ve çubuk çzigesi"
 
-#: frontend/src/metabase/visualizations/visualizations/Gauge.jsx:71
+#: frontend/src/metabase/visualizations/visualizations/basic/Gauge.jsx:71
 msgid "Gauge visualization requires a number."
 msgstr "Gösterge için bir sayı gerekiyor."
 
-#: frontend/src/metabase/visualizations/visualizations/Gauge.jsx:55
+#: frontend/src/metabase/visualizations/visualizations/basic/Gauge.jsx:55
 msgid "Gauge"
 msgstr "Gösterge"
 
-#: frontend/src/metabase/visualizations/visualizations/Gauge.jsx:110
+#: frontend/src/metabase/visualizations/visualizations/basic/Gauge.jsx:110
 msgid "Gauge ranges"
 msgstr "Gösterge aralığı"
 
-#: frontend/src/metabase/visualizations/visualizations/Scalar.jsx:99
+#: frontend/src/metabase/visualizations/visualizations/basic/Scalar.jsx:99
 msgid "Field to show"
 msgstr "Gösterilecek alan"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:137
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:137
 msgid "last {0}"
 msgstr "son {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:205
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:205
 msgid "{0} was {1} {2}"
 msgstr "{0}, {1} {2} idi."
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:79
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:79
 msgid "Group by a time field to see how this has changed over time"
 msgstr "Zaman bağlı olarak değişimi görmek için zaman içeren alana göre gruplandırınız"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:58
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:58
 msgid "Switch positive / negative colors?"
 msgstr "Pozitif / negatif renklere geçilsin mi?"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:99
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:99
 msgid "Pivot column"
 msgstr "Özet sütunu"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:130
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:130
 msgid "Cell column"
 msgstr "Hücre sütunu"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:166
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:166
 msgid "Visible columns"
 msgstr "Görünen sütunlar"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:200
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:200
 msgid "Conditional Formatting"
 msgstr "Koşullu biçimlendirme"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:179
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:236
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:179
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:236
 msgid "Column title"
 msgstr "Sütun başlığı"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:244
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:244
 msgid "Show a mini bar chart"
 msgstr "Küçük çubuk çizlgesi göster"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:253
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:253
 msgid "Link"
 msgstr "Bağlantı"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:258
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:258
 msgid "Email link"
 msgstr "Bağlantıyı e-postala"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:262
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:262
 msgid "Image"
 msgstr "Görüntü"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:266
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:266
 msgid "Automatic"
 msgstr "Otomatik"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:270
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:270
 msgid "View as link or image"
 msgstr "Bağlantı ya da görüntü olarak izle"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:283
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:283
 msgid "Link text"
 msgstr "Bağlantı metni"
 
@@ -12015,7 +12015,7 @@ msgstr "Geçersiz"
 msgid "Add a time"
 msgstr "Bir zaman ekleyin"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:191
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:191
 msgid "Nothing to compare for the previous {0}."
 msgstr "Önceki {0} ile karşılaştırılacak bir şey yok."
 
@@ -13251,15 +13251,15 @@ msgstr "Profil"
 msgid "This is usually pretty fast but seems to be taking a while right now."
 msgstr "Genellikle hızlıdır ama şu an biraz sürecek gibi duruyor."
 
-#: frontend/src/metabase/visualizations/visualizations/ComboChart.jsx:15
+#: frontend/src/metabase/visualizations/visualizations/basic/ComboChart.jsx:15
 msgid "Combo"
 msgstr "Birleşik"
 
-#: frontend/src/metabase/visualizations/visualizations/RowChart.jsx:11
+#: frontend/src/metabase/visualizations/visualizations/basic/RowChart.jsx:11
 msgid "Row"
 msgstr "Satır"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:31
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:31
 msgid "Trend"
 msgstr "Trend"
 
@@ -14999,7 +14999,7 @@ msgstr "Değer biçimlendirme"
 msgid "Full"
 msgstr "Tam"
 
-#: frontend/src/metabase/visualizations/visualizations/SmartScalar.jsx:193
+#: frontend/src/metabase/visualizations/visualizations/basic/SmartScalar.jsx:193
 msgid "No change from last {0}"
 msgstr "Son {0} itibariyle değişiklik yok"
 
@@ -17665,7 +17665,7 @@ msgstr "İlk {2} satırdan {0} - {1} arasındaki satırlar"
 msgid "Drag fields here"
 msgstr "Alanları buraya sürükleyin"
 
-#: frontend/src/metabase/visualizations/visualizations/PieChart.jsx:359
+#: frontend/src/metabase/visualizations/visualizations/basic/PieChart.jsx:359
 msgid "Percentage"
 msgstr "Yüzde"
 
@@ -17681,47 +17681,47 @@ msgstr "Genel toplamlar"
 msgid "Row totals"
 msgstr "Satır toplamları"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:28
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:28
 msgid "Fields to use for the table rows"
 msgstr "Tablo satırları için kullanılacak alanlar"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:33
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:33
 msgid "Fields to use for the table columns"
 msgstr "Tablo sütunları için kullanılacak alanlar"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:38
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:38
 msgid "Fields to use for the table values"
 msgstr "Tablo değerleri için kullanılacak alanlar"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:91
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:91
 msgid "Pivot tables can only be used with aggregated queries."
 msgstr "Pivot tablolar yalnızca toplu sorgularla kullanılabilir."
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:64
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:64
 msgid "Pivot Table"
 msgstr "Pivot tablo"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:15
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:15
 msgid "Waterfall"
 msgstr "Şelale"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:18
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:18
 msgid "waterfall chart"
 msgstr "şelale grafiği"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:26
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:26
 msgid "Increase color"
 msgstr "Rengi artır"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:32
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:32
 msgid "Decrease color"
 msgstr "Rengi azalt"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:38
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:38
 msgid "Show total"
 msgstr "Toplamı göster"
 
-#: frontend/src/metabase/visualizations/visualizations/WaterfallChart.jsx:44
+#: frontend/src/metabase/visualizations/visualizations/basic/WaterfallChart.jsx:44
 msgid "Total color"
 msgstr "Toplam rengi"
 
@@ -18372,21 +18372,21 @@ msgstr "Bu {0} aboneliği silinsin mi?"
 msgid "{0} charts in your subscription won't look the same as in your dashboard. {1}."
 msgstr "Aboneliğinizdeki {0} grafikleri, kontrol panelinizdekilerle aynı görünmeyecek. {1}."
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:36
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:43
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:50
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:36
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:43
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:50
 msgid "Fields to use for the table {0}"
 msgstr "Tablo için kullanılacak alanlar {0}"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:37
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:37
 msgid "rows"
 msgstr "satırlar"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:44
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:44
 msgid "columns"
 msgstr "sütunlar"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:51
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:51
 msgid "values"
 msgstr "değerler"
 
@@ -18527,7 +18527,7 @@ msgstr "Sıralama düzeni"
 msgid "See options…"
 msgstr "Seçenekleri görün…"
 
-#: frontend/src/metabase/visualizations/visualizations/PivotTable.jsx:95
+#: frontend/src/metabase/visualizations/visualizations/basic/PivotTable.jsx:95
 msgid "This database does not support pivot tables."
 msgstr "Bu veritabanı pivot tabloları desteklemiyor."
 
@@ -19183,11 +19183,11 @@ msgstr "{0} işlevinden sonra bir parantez açılması bekleniyor"
 msgid "Explore results"
 msgstr "Sonuçları keşfedin"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:280
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:280
 msgid "You can use the value of any column here like this: {{COLUMN}}"
 msgstr "Burada herhangi bir sütunun değerini şu şekilde kullanabilirsiniz: {{COLUMN}}"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:293
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:293
 msgid "Link URL"
 msgstr "Bağlantı adresi"
 
@@ -19568,7 +19568,7 @@ msgstr "Detayları düzenle"
 msgid "History"
 msgstr "Tarih"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:419
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:419
 msgid "Every field is hidden right now"
 msgstr "Her alan şu anda gizli"
 
@@ -20824,7 +20824,7 @@ msgstr "#{0} modeli"
 msgid "Model in {0}"
 msgstr "{0} içinde model"
 
-#: frontend/src/metabase/visualizations/visualizations/Table.jsx:271
+#: frontend/src/metabase/visualizations/visualizations/basic/Table.jsx:271
 msgid "Display as"
 msgstr "olarak göster"
 

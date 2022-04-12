@@ -1,12 +1,27 @@
-import { t } from "ttag";
+import { c, t } from "ttag";
 import _ from "underscore";
+
+const USE_MINIMAL = true;
+
+const minimalMap = {
+  bar: "minimal_bar",
+  pie: "minimal_pie",
+};
+
+const cardIdMap = {
+  1: true,
+  2: false,
+  3: true,
+  4: false,
+};
 
 const visualizations = new Map();
 const aliases = new Map();
-visualizations.get = function(key) {
+visualizations.get = function(rawKey, id) {
+
   return (
-    Map.prototype.get.call(this, key) ||
-    aliases.get(key) ||
+    Map.prototype.get.call(this, rawKey) ||
+    aliases.get(rawKey) ||
     defaultVisualization
   );
 };
@@ -49,10 +64,11 @@ export function registerVisualization(visualization) {
   }
 }
 
-export function getVisualizationRaw(series) {
+export function getVisualizationRaw(series, id) {
   return {
     series: series,
-    visualization: visualizations.get(series[0].card.display),
+    visualization: visualizations.get(series[0].card.display, id),
+
   };
 }
 
