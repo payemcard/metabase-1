@@ -31,7 +31,7 @@ import _ from "underscore";
 const MAX_PIE_SIZE = 550;
 
 const OUTER_RADIUS = 50; // within 100px canvas
-const INNER_RADIUS_RATIO = 3 / 5;
+const INNER_RADIUS_RATIO = 4 / 5;
 
 const PAD_ANGLE = (Math.PI / 180) * 1; // 1 degree in radians
 const SLICE_THRESHOLD = 0.025; // approx 1 degree in percentage
@@ -408,6 +408,17 @@ export default class PieChart extends Component {
     const getSliceIsClickable = index =>
       isClickable && slices[index] !== otherSlice;
 
+      function renderGradient(slice, index) {
+        return    <linearGradient key={index} id={`grad-${index}`} x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style={{stopColor:slice.color, stopOpacity:1}} />
+        <stop offset="100%" style={{stopColor:slice.color, stopOpacity:0.5}} />
+      </linearGradient> 
+      }
+      
+      function renderGradients() {
+         return slices.map((slice, index) => renderGradient(slice, index));
+      }
+
     return (
       <ChartWithLegend
         className={className}
@@ -442,13 +453,17 @@ export default class PieChart extends Component {
               viewBox="0 0 100 100"
               style={{ maxWidth: MAX_PIE_SIZE, maxHeight: MAX_PIE_SIZE }}
             >
+              <defs>
+         {renderGradients()}
+            </defs>
               <g ref={this.chartGroup} transform={`translate(50,50)`}>
                 {pie(slices).map((slice, index) => (
                   <path
                     data-testid="slice"
                     key={index}
                     d={arc(slice)}
-                    fill={slices[index].color}
+                    // fill={slices[index].color}
+                    fill={`url(#grad-${index})`}
                     opacity={
                       hovered &&
                       hovered.index != null &&
